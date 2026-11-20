@@ -1,0 +1,25 @@
+# Local Python environments and caches
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/build/
+/dist/
+/*.spec
+
+# Camera settings and temporary files
+rtsp-frame-graph.ini
+rtsp-frame-graph.ini.*
+/.env
+/.env.*
+!/.env.example
+/.runtime/
+/captures/
+*.csv
+*.png
+*.log
+*.log.*
+*.core
+core
+core.[0-9]*
